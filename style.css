@@ -1,0 +1,179 @@
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding:0;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+div{
+  align-self: centre;
+  padding: 15px;
+}
+:root{
+  --main-color: #fd4646 ;
+  --text-color: #171427;
+  --bg-color: #fff
+  ;
+}
+img{
+  width: auto;
+}
+body{
+  color: var(--text-color);
+}
+.container {
+  max-width: 1068px;
+  margin: auto;
+  width : 100%;
+}
+
+section{
+  padding: 4rem 0 3rem;
+}
+/*Header*/
+
+header{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  background-color: var(--bg-color) ;
+  box-shadow: 0 1px 4px rgba(46, 37, 145, 0.1) ;
+  z-index: 100;
+  font-size: 1.7rem;
+}
+.nav{
+  display:flex;
+  /* align-items: center; */
+  justify-content:space-between;
+  padding: 10px 0;
+  background-color: #fbfbfb;
+}
+.logo{
+  font: size 4.1em;
+  color: var(--text-color);
+  font-weight:700;
+  border: 3px solid rgb(38, 76, 133);
+  padding: 5px
+
+}
+#cart-icon{
+  font: size 1.8em;
+  cursor: pointer;
+
+
+}
+.section-title {
+  font-size: 1.5rem;
+  font-weight:600;
+  text-align: center;
+}
+
+.shop {
+  margin-top: 2rem;
+}
+
+/* Shop Content */
+
+.shop-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+}
+
+.product-box{
+  position: relative;
+}
+
+.product-box:hover{
+  padding: 10px;
+  /* border: 1px solid var(--text-color); */
+  /* transition: 0.4s; */
+}
+
+.product-img{
+  width:100%;
+  height: auto;
+  margin: bottom 0.5rem ;
+
+}
+.product-title{
+  font: size 5.1rem;
+  font-weight:1200;
+  text-transform: uppercase;
+  margin-bottom:0.5rem;
+}
+
+.price{
+  font-weight: 200;
+}
+
+
+button {
+  background-color: #044caa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-left: 850px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.text-block {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: #e2f4ff ;
+  color: rgb(5, 5, 5);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5rem;
+  font-weight:500;
+}
+
+.para{
+ 
+  /* background-color: #e2f4ff ; */
+  padding-left: 50px;
+  padding-right: 50px; 
+  font-size: 2.5rem;
+  font-weight:700;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 1055px;
+  margin: auto;
+  width : 100%;
+}
+
+.para-content{
+  background-color: #e2f4ff;
+  border: 3px solid rgb(55, 209, 230);
+  padding: 40px;
+  font-size: 1.5rem;
+  font-weight:400;
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-left-style: dashed;
+  border-right-style: dashed;
+
+}
+
+.lex-web-ui-iframe {
+  min-width: 27vw !important;
+  max-height: 80vw !important;
+  margin-right: 2vw !important;
+  margin-bottom: 5px !important;
+  position: fixed;
+}

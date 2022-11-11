@@ -55,28 +55,27 @@
 
 
   </section>
-  <script src="https://d2hfm1f08ittzi.cloudfront.net/lex-web-ui-loader.min.js"></script>
+  <script src="https://d39m787aolpkwh.cloudfront.net/lex-web-ui-loader.min.js"></script>
   <script>
     var loaderOpts = {
-      baseUrl: 'https://d2hfm1f08ittzi.cloudfront.net/',
+      baseUrl: 'https://d39m787aolpkwh.cloudfront.net/',
       shouldLoadMinDeps: true
     };
     var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
     var chatbotUiConfig = {
       ui: {
         "parentOrigin": "https://vishalvchavan7.github.io/sampleAWS_LEX-Ui/",
-        "toolbarTitle": "Password Reset",
+        "toolbarTitle": "FAQ BOT",
         "toolbarLogo": "",
-        "avatarImageUrl":"https://as1.ftcdn.net/v2/jpg/03/22/51/96/1000_F_322519602_oJkKp4pQxWkjJ7X1bydUXmn1LlBjOos3.jpg",
         "positiveFeedbackIntent": "Thumbs up",
         "negativeFeedbackIntent": "Thumbs down",
         "helpIntent": "Help",
-        "minButtonContent": "Live Chat",
-        "backButton": true,
+        "minButtonContent": "",
+        "backButton": false,
         "messageMenu": false,
         "hideButtonMessageBubble": false,
         "enableLogin": false,
-        "enableLiveChat": true,
+        "enableLiveChat": false,
         "forceLogin": false,
         "AllowSuperDangerousHTMLInMessage": true,
         "shouldDisplayResponseCardTitle": false,
@@ -87,20 +86,20 @@
         "pushInitialTextOnRestart": false,
         "directFocusToBotInput": false,
         "showDialogStateIcon": false
-      },
+      } ,
       iframe: {
-        "iframeOrigin": "https://d2hfm1f08ittzi.cloudfront.net",
-        "shouldLoadIframeMinimized": true,
+        "iframeOrigin": "https://d39m787aolpkwh.cloudfront.net",
+        "shouldLoadIframeMinimized": false,
         "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
       },
       cognito: {
-        "poolId": "us-east-1:f70b83e8-da55-4804-960f-03fbede6435d",
-        "appUserPoolClientId": "4t1bhcf7fc9von686ansmhhif",
-        "appUserPoolName": "us-east-1_kyW4hsPGm",
-        "appDomainName": "lexkwebkuikvckidentitypoolconfigkgjfhbhgsxf053552537323.auth.us-east-1.amazoncognito.com",
+        "poolId": "us-east-1:9ff1bc84-c685-4f17-b079-3de2c42df357",
+        "appUserPoolClientId": "2htg4oc94cn3g5ij443tgbq5ln",
+        "appUserPoolName": "us-east-1_hyKX9c77D",
+        "appDomainName": "lexkwebkuikidentitypoolconfigklfymrcgekgmw839568529866.auth.us-east-1.amazoncognito.com",
         "aws_cognito_region": "us-east-1",
         "region": "us-east-1"
-        },
+      },
       connect: {
         "contactFlowId": "",
         "instanceId": "",
@@ -114,13 +113,13 @@
         "attachChatTranscript": "false",
         "liveChatTerms": "live chat"
       },
-      lex: {
-        "v2BotId": "AYEWMOR8UQ",
+      lex:{
+        "v2BotId": "PIMDEPLA2K",
         "v2BotAliasId": "TSTALIASID",
         "v2BotLocaleId": "en_US",
-        "botName": "AYEWMOR8UQ",
+        "botName": "PIMDEPLA2K",
         "botAlias": "$LATEST",
-        "initialText": "You can ask me for help ordering flowers. Just type \"Buy flowers\" or click on the mic and say it.",
+        "initialText": "Hello! Welcome to HR Assistance!",
         "initialSpeechInstruction": "Say 'Hi' to get started.",
         "initialUtterance": "",
         "reInitSessionAttributesOnRestart": false,

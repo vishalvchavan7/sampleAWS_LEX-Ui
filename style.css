@@ -11,7 +11,7 @@
 }
 div{
   align-self: centre;
-/*   padding: 15px; */
+  padding: 15px;
 }
 :root{
   --main-color: #fd4646 ;
@@ -25,11 +25,11 @@ img{
 body{
   color: var(--text-color);
 }
-.container {
+/* .container {
   max-width: 1068px;
   margin: auto;
   width : 100%;
-}
+} */
 
 section{
   padding: 4rem 0 3rem;

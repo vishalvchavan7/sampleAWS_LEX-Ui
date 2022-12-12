@@ -188,5 +188,5 @@ button:hover {
   border-top-right-radius: 4px; 
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 100px;
 }

@@ -9,10 +9,10 @@
   list-style: none;
   text-decoration: none;
 }
-div{
+/* div{
   align-self: centre;
   padding: 15px;
-}
+} */
 :root{
   --main-color: #fd4646 ;
   --text-color: #171427;

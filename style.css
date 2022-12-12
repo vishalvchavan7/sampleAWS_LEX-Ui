@@ -190,3 +190,16 @@ button:hover {
   bottom: 0;
   right: 100px;
 }
+
+.acFrameContainer-0-0-36{
+  width:0;
+  height: 0;
+  background: #fff; 
+  overflow: hidden;
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+  border-top-left-radius: 4px; 
+  border-top-right-radius: 4px; 
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}

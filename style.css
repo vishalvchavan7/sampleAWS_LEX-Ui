@@ -167,12 +167,12 @@ button:hover {
 }
 
 .lex-web-ui-iframe {
-  min-width: 27vw !important;
+  min-width: 80vw !important;
   max-height: 80vw !important;
   margin-right: 2vw !important;
   margin-bottom: 5px !important;
   position: fixed;
-} 
+}
 
 .acFrameContainer-0-0-14{
   width:0;

@@ -1,6 +1,6 @@
  /* Example custom css file for lex-web-ui. Entire file is commented out as a default. Uncomment and adjust as needed. .*/
  .toolbar.theme--dark {
-    /* background-color: #011e7a !important; */
+   
     background-color:#e31837!important;
 }
 
@@ -20,14 +20,14 @@
 .message-bot .message-bubble {
     /* background-color: #e0eef7 !important; */
     background-color:#f2f2f2!important;
-    border:1px solid #f6f6f6!important;
+    border:1px solid #ccc!important;
 }
 
 .message-human .message-bubble {
     /* background-color: #fcfdfd !important; */
-    background-color:#646464!important;
-    color: #fff !important;
-    border:1px solid #474747!important;
+    background-color:#fdbc57!important;
+   
+  
 }
 
 .message-bubble p {
@@ -85,15 +85,32 @@
     font-size: 1.0em !important;
     min-width: 44px !important;
     /* background-color: #f0f0f0 !important; */
-    background: color #fdbc5f !important;
+    background-color: #e31837 !important;
+
 }
 
 .button.min-button {
     border-radius: 30px;
-    background-color: blue !important;
-    border-color: blue !important;
+    background-color: #e31837 !important;
+    border-color: #e31837 !important;
 }
 
 .message-button {
     display: none;
+}
+.accent{
+    background-color: #e31837 !important;
+
+}
+.btn__content{
+    color: #fff !important;
+}
+.application .theme--light.btn.btn--disabled:not(.btn--icon):not(.btn--flat), .theme--light .btn.btn--disabled:not(.btn--icon):not(.btn--flat) {
+    background-color: rgba(0,0,0,0.20)!important;
+}
+.response-card{
+    margin-left:43px!important;
+}
+.toolbar__title {
+font-family:arial!important;
 }

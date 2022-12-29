@@ -203,25 +203,29 @@ button:hover {
   bottom: 0;
   right: 100px;
 }
-.ctdTet{
-  background-color: #E31837;
-  text-align:left;
+
+.ctdTet {
+  background-color: #E31837!important;
+  text-align:left!important;
 }
-.lhXfPM{
-  background-color: #646464;
-  color:#fff;
+.lhXfPM {
+  background-color: #646464!important;
+  color:#fff!important;
 }
-.dRSldq{
-  font-size:13px;
+.dRSldq {
+  font-size:13px!important;
 }
 .hpytXG{
-  background-color:#E31837;
+  background-color:#E31837!important;
 }
-.jyvKbv{
-  background-color: #FDBC5F;
+.jyvKbv {
+  background-color: #FDBC5F!important;
 }
-.fahTqE{
-  background-color: #F2F2F2;
-  margin-left:0px;
-  padding:10px 45px 10px 10px;
+.fahTqE {
+  background-color: #F2F2F2!important;
+  margin-left:0px!important;
+  padding:10px 45px 10px 10px!important;
+}
+.show{
+  width:60%!important;
 }

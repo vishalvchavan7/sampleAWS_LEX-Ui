@@ -222,7 +222,7 @@ button:hover {
   margin-left:0px!important;
   padding:10px 45px 10px 10px!important;
 }
-#amazon-connect-chat-widget{
+.show{
   width:60%!important;
   background: #E31837!important;
 }

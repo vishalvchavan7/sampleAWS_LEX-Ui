@@ -1,91 +1,99 @@
  /* Example custom css file for lex-web-ui. Entire file is commented out as a default. Uncomment and adjust as needed. .*/
  .toolbar.theme--dark {
-     background-color: #011e7a !important;
- }
+    /* background-color: #011e7a !important; */
+    background-color:#e31837!important;
+}
 
- .toolbar__title {
-     font-family: "Sans-serif" !important;
-     font-size: 1.0em !important;
-     color: #ffffff !important;
-     padding: 0px;
-     margin-left: 0px;
- }
+.toolbar__title {
+    font-family: "Sans-serif" !important;
+    font-size: 1.0em !important;
+    color: #ffffff !important;
+    padding: 0px;
+    margin-left: 0px;
+}
 
- .message-list-container {
-     background-color: #dcdbdc !important
- }
+.message-list-container {
+    /* background-color: #dcdbdc !important */
+    background-color:#fff!important;
+}
 
- .message-bot .message-bubble {
-     background-color: #e0eef7 !important;
- }
+.message-bot .message-bubble {
+    /* background-color: #e0eef7 !important; */
+    background-color:#f2f2f2!important;
+    border:1px solid #f6f6f6!important;
+}
 
- .message-human .message-bubble {
-     background-color: #fcfdfd !important;
- }
+.message-human .message-bubble {
+    /* background-color: #fcfdfd !important; */
+    background-color:#646464!important;
+    color: #fff !important;
+    border:1px solid #474747!important;
+}
 
- .message-bubble p {
-     margin-bottom: 8px;
- }
+.message-bubble p {
+    margin-bottom: 8px;
+}
 
- .message-bubble p:last-child {
-     margin-bottom: 0px;
- }
+.message-bubble p:last-child {
+    margin-bottom: 0px;
+}
 
- .message-bubble .message-text {
-     padding-left: 0;
-     padding-right: 0;
-     line-height: 1.4;
-     font-size: 1.0rem;
- }
+.message-bubble .message-text {
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 1.4;
+    font-size: 1.0rem;
+}
 
- .message-bubble {
-     border-radius: 10px !important;
-     padding: 2px 16px !important;
- }
+.message-bubble {
+    border-radius: 10px !important;
+    padding: 2px 16px !important;
+}
 
- .message-text {
-     color: #000000;
-     width: 100%;
- }
+.message-text {
+    color: #000000;
+    width: 100%;
+}
 
- .headline {
-     font-size: 1.0rem !important;
-     line-height: 1.4 !important;
- }
+.headline {
+    font-size: 1.0rem !important;
+    line-height: 1.4 !important;
+}
 
- .card__title {
-     padding: 8px 14px !important;
- }
+.card__title {
+    padding: 8px 14px !important;
+}
 
- .card__text {
-     padding: 6px 14px 14px !important;
-     line-height: 1.4;
- }
+.card__text {
+    padding: 6px 14px 14px !important;
+    line-height: 1.4;
+}
 
- .card__title.card__title--primary {
-     background-color: #eeedeb !important;
- }
+.card__title.card__title--primary {
+    background-color: #eeedeb !important;
+}
 
 
- .input-group--text-field input,
- .input-group--text-field textarea,
- .input-group--text-field label {
-     font-size: 12px !important;
- }
+.input-group--text-field input,
+.input-group--text-field textarea,
+.input-group--text-field label {
+    font-size: 12px !important;
+}
 
- .card__actions .btn {
-     margin: 2px 2px !important;
-     font-size: 1.0em !important;
-     min-width: 44px !important;
-     background-color: #f0f0f0 !important;
- }
+.card__actions .btn {
+    margin: 2px 2px !important;
+    font-size: 1.0em !important;
+    min-width: 44px !important;
+    /* background-color: #f0f0f0 !important; */
+    background: color #fdbc5f !important;
+}
 
- .button.min-button {
-     border-radius: 30px;
-     background-color: blue !important;
-     border-color: blue !important;
- }
+.button.min-button {
+    border-radius: 30px;
+    background-color: blue !important;
+    border-color: blue !important;
+}
 
- .message-button {
-     display: none;
- }
+.message-button {
+    display: none;
+}
